@@ -1,0 +1,16 @@
+<!doctype html><html><head><link rel='stylesheet' href='css/style.css'><title>NLC Tracker</title></head>
+<body><div class='sidebar'><h2>NLC</h2>
+<a href='dashboard.html'>Records</a><a href='add-record.html'>Add Record</a><a href='public-view.html'>Public View</a><a href='login.html'>Logout</a></div>
+<div class='main'>
+<div class='card'><h1>Furnace Oil Delivery Records</h1>
+<div class='filters'>
+<select><option>HPCL/BPCL</option></select>
+<input value='01/07/2025 - 30/07/2025'>
+<input placeholder='Order No'>
+<input placeholder='Bowser No'>
+<button>Search</button></div></div>
+<div class='card'>
+<table><tr><th>Date</th><th>Supplier</th><th>Order</th><th>Invoice Qty</th><th>CMR Qty</th><th>Status</th></tr>
+<tr><td>30/07/25</td><td>HPCL</td><td>4500001234</td><td>24 KL</td><td>24 KL</td><td><span class='badge ok'>✔ Match</span></td></tr>
+<tr><td>30/07/25</td><td>BPCL</td><td>4500001235</td><td>24 KL</td><td>23 KL</td><td><span class='badge warn'>⚠ Mismatch</span></td></tr>
+</table></div></div></body></html>
