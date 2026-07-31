@@ -1,0 +1,18 @@
+
+body{margin:0;font-family:Arial,sans-serif;background:#f4f6f8;color:#223}
+.sidebar{position:fixed;left:0;top:0;width:220px;height:100vh;background:#0f2745;color:#fff;padding:20px;box-sizing:border-box}
+.sidebar h2{margin:0 0 20px}
+.sidebar a{display:block;color:#fff;text-decoration:none;padding:10px 0}
+.main{margin-left:220px;padding:24px}
+.card{background:#fff;border:1px solid #d7dee8;border-radius:6px;padding:16px;margin-bottom:18px}
+.filters{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
+input,select,button{padding:10px;border:1px solid #bcc7d3;border-radius:4px}
+button{background:#0f2745;color:#fff;cursor:pointer}
+table{width:100%;border-collapse:collapse}
+th,td{border:1px solid #d8dee6;padding:10px;text-align:left}
+th{background:#eef3f7}
+.badge{padding:3px 8px;border-radius:3px;font-size:12px}
+.ok{background:#dff3df}
+.warn{background:#ffe5c2}
+.login{display:flex;height:100vh;align-items:center;justify-content:center;background:#eef3f7}
+.box{background:#fff;padding:30px;width:340px;border:1px solid #d8dee6}
